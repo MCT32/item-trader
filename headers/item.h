@@ -6,6 +6,7 @@ public:
   char displayname[16];
   char description[250];
 
+private:
   item(unsigned int id, char name[], char displayname[]);
   item(unsigned int id, char name[], char displayname[], char description[]);
 };
