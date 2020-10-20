@@ -1,8 +1,9 @@
 #include "item.h"
+#include <cstring>
 
-item::item(unsigned int id_, char name_[16], char displayname_[16])
+item::item(unsigned int id, char name[16], char displayname[16])
 {
-  id = id_;
-  name = name_;
-  displayname = displayname_;
-};
+  this->id = id;
+  memcpy(this->name, name, 16);
+  memcpy(this->displayname, displayname, 16);
+}
