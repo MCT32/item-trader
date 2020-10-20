@@ -8,8 +8,14 @@ struct item
 };
 
 // All items
-const item toilet_paper = {
+const item empty = {
   0,
+  "empty",
+  "Empty"
+}
+
+const item toilet_paper = {
+  1,
   "toilet_paper",
   "Toilet Paper"
 };
