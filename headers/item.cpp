@@ -1,6 +1,7 @@
 #include "item.h"
 #include <cstring>
 
+/* Constructors */
 item::item(unsigned int id, char name[], char displayname[])
 {
   this->id = id;
