@@ -3,19 +3,21 @@ struct item
 {
   // Variables
   unsigned int id;
-  char[] namespace;
-  char[] displayname;
-  char[] definition;
+  char namespace[];
+  char displayname[];
+  char definition[];
 };
 
 // All items
-const item empty = {
+const item empty =
+{
   0,
   "empty",
   "Empty"
 }
 
-const item toilet_paper = {
+const item toilet_paper =
+{
   1,
   "toilet_paper",
   "Toilet Paper"
