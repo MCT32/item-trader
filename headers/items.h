@@ -25,5 +25,7 @@ struct item_slot
 // Inventory structure
 struct inventory
 {
-
+  unsigned int width;
+  unsigned int height;
+  item_slot slot[][];
 };
