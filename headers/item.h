@@ -4,7 +4,7 @@ struct item
   char name[16];
   char displayname[16];
 
-  item()
+  item(unsigned int id_, char name_[16], char displayname_[16])
   {
 
   };
