@@ -8,8 +8,11 @@ public:
   char displayname[16];
   char description[250];
 
-private:
   /* Constructors */
-  item(unsigned int id, char name[], char displayname[]);
-  item(unsigned int id, char name[], char displayname[], char description[]);
+  item(unsigned int id, const char name[], const char displayname[]);
+  item(unsigned int id, const char name[], const char displayname[], const char description[]);
 };
+
+/* Items */
+const item empty(0, "empty", "Empty");
+const item toilet_paper(1, "toilet_paper", "Toilet Paper");
