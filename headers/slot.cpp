@@ -14,10 +14,10 @@ slot::slot(item item)
   this->max = 100;
 };
 
-slot::slot(item item, unsigned int max)
+slot::slot(unsigned int max)
 {
-  this->item = item;
-  this->quantity = max;
+  this->item = empty;
+  this->quantity = 0;
   this->max = max;
 };
 

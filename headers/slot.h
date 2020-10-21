@@ -12,6 +12,6 @@ public:
   /* Constructors */
   slot();
   slot(item item);
-  slot(item item, unsigned int max);
+  slot(unsigned int max);
   slot(item item, unsigned int quantity, unsigned int max);
 };
