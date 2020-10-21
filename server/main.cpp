@@ -1,4 +1,4 @@
-#include "../headers/slot.cpp"
+#include "../headers/inventory.cpp"
 
 int main()
 {
