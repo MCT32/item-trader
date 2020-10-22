@@ -1,3 +1,5 @@
+#include "item.cpp"
+
 /* Structure */
 struct page
 {
@@ -7,4 +9,4 @@ public:
 
   /* Constructors */
   page();
-}
+};

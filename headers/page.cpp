@@ -3,5 +3,8 @@
 /* Constructors */
 page::page()
 {
-  contents[] = new item();
+  for(int i = 0; i < 20; i++)
+  {
+    contents[i] = empty;
+  }
 }
