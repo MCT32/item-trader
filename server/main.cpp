@@ -1,4 +1,4 @@
-#include "../headers/inventory.cpp"
+#include "../headers/page.cpp"
 
 int main()
 {
