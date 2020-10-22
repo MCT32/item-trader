@@ -1,3 +1,0 @@
-#include "inventory.h"
-
-/* Constructors */
